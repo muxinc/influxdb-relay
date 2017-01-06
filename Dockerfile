@@ -1,4 +1,5 @@
 FROM gliderlabs/alpine
+MAINTAINER scott@mux.com
 
 RUN apk add --no-cache ca-certificates
 COPY influxdb-relay /influxdb-relay
